@@ -1,0 +1,20 @@
+body {
+    background-image: url(../images/oriental.png)
+}
+
+h1 {
+    font-family: 'Charmonman', cursive;
+    text-align: center;
+}
+.instructions {
+    font-family: 'Nunito', sans-serif;
+    background-color: whitesmoke;
+}
+
+.crystal4 {
+    height: 188px;
+}
+
+#random_number {
+    font-size: 50px;
+}
