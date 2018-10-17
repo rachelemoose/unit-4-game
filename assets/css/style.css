@@ -11,12 +11,17 @@ h1 {
     background-color: whitesmoke;
 }
 
-.crystal4 {
-    height: 188px;
-}
-
 .crystals {
     display: inline;
+}
+
+img {
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+.crystal4 {
+    height: 188px;
 }
 
 #random_number {
@@ -30,3 +35,4 @@ h1 {
 .losses {
     float: right;
 }
+
