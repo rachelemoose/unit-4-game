@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Crystal Counter</title>
 </head>
 <body>
@@ -21,14 +20,18 @@
     <p>Each time a new game starts, the value of the crystals will change.</p>
     <p>Good Luck!</p>
 </div>
-<div id="random_number">
-
+<div id="random_number"></div>
+    <div class="wins">
+        Wins:
+    </div>
+    <div class="losses">
+        Losses:
+    </div>
 </div>
+
+
 <br>
 
-<div class="wins_loses">
-
-</div>
 <div class="crystals">
     <img src="assets/images/crystal1.jpeg" class="crystal1" alt="crystal1">
     <img src="assets/images/crystal2.jpeg" class="crystal2" alt="crystal2">
@@ -42,6 +45,9 @@ Your total score is:
 </div>
 
 
-<script src="assets/javascript/game.js" defer></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
 </body>
 </html>

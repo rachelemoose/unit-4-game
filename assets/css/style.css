@@ -15,6 +15,18 @@ h1 {
     height: 188px;
 }
 
+.crystals {
+    display: inline;
+}
+
 #random_number {
     font-size: 50px;
+    width: 200px;
+    float: left;
+}
+.wins {
+    float: right;
+}
+.losses {
+    float: right;
 }
