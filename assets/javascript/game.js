@@ -38,7 +38,7 @@ function reset() {
     crystal3 = Math.floor((Math.random()*12) + 1); 
     crystal4 = Math.floor((Math.random()*12) + 1);
     totalscore = 0; //reset totalscore to 0
-    $(".total_score").text(totalscore); //write new total score
+    $(".total_score").text("Total Score: " + totalscore); //write new total score
 }
 
 //function to check the score - will need to check the score everytime a crystal is clicked, so we know if someone won or not
@@ -47,13 +47,13 @@ function checkscore() {
         wins++;
         console.log(wins);
         alert("You got it to equal " + randomnumber + "! You win!");
-        $(".wins").text(wins);
+        $(".wins").text("Wins: " + wins);
         reset();
     } else if (totalscore > randomnumber) {
         losses++;
         (console.log(losses));
         alert("Uh-oh you went above " + randomnumber + ", you lost!");
-        $(".losses").text(losses);
+        $(".losses").text("Losses: " + losses);
         reset();
     }
 }
