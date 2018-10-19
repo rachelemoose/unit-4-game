@@ -1,34 +1,51 @@
 body {
-    background-image: url(../images/oriental.png)
+    background-image: url("../images/concrete-texture.png");
+    max-width: 100%;
 }
+
 
 h1 {
     font-family: 'Charmonman', cursive;
+    font-size: 50px;
     text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
+
 .instructions {
-    font-family: 'Nunito', sans-serif;
-    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+}
+
+#score_container {
+    max-width: 100%;
 }
 
 #random_number {
     font-size: 50px;
-    width: 200px;
-    float: left;
+}
+
+.wins, .losses, .total_score, #random_number {
+    font-family: 'Inconsolata', monospace;
+    padding: 20px;
+    margin: 20px;
+}
+
+.wins, .losses {
+    float: right;
+    font-size: 20px;
 }
 
 .crystals {
+    padding: 10px;
     margin: 10px;
-    padding-top: 10px;
+    max-width: 100%;
 }
 
 img {
-    border-radius: 8px;
+    border-radius: 10px;
     width: 200px;
     height: 200px;
-}
-
-.wins {
-    padding: 10px;
-    margin: 10px;
 }
